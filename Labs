@@ -1,0 +1,5 @@
+Lab 1 - create a script and make it executable
+
+touch script.sh
+echo "This is a test" > scripts.sh
+chmod +x script.sh
