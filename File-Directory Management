@@ -1,0 +1,53 @@
+ls (List Directory) - list contents of a directory
+
+Options
+-a → show all files (including hidden)
+-l → detailed list
+-h → human-readable format
+eg. ls -la or -ls -l -a (shows detailed list of all folders including hidden and not hidden)
+-i - ignores upper or lowercase
+
+rm - delete file
+rm -i - ask before deleting
+eg. rm -i file2.txt
+
+-r - recursive (is an operation that performs a task on a directory and all it's content including subdirectories and files within)
+-f -  force delete
+eg. rm -rf test/
+
+mkdir (create directory)
+-p - parent directory
+e.g mkdir -p Linux/Ubuntu/test (creates Linux dir, Ubuntu folder & test file)
+
+rmdir (removes only empty directory)
+To remove parent directory:
+rmdir -p Linux/Ubuntu(only if they are empty)
+
+file (check file type)
+eg. file file1.txt
+
+touch (create file)
+
+man (Manual) - get documentation for any command
+eg. man ls
+
+pwd (Print Working Directory) - shows your current location in the system
+
+cd (Change Directory)
+Used to move between directories
+cd .. - go one step back
+
+COPY/MOVE
+cp (Copy)
+cp file1.txt filecopy.txt (copies content in file1 to filecopy)
+
+To copy to another directory:
+cp file1.txt /home/user/documents/
+Copy directories:
+cp -r folder1 folder2
+
+mv (move/rename)
+eg. mv oldname.txt newname.txt
+Move + rename:
+mv file2.txt test/file3.txt (moves file2 into test/ directory and renames it to file3)
+
