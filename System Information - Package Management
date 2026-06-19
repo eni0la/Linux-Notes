@@ -1,0 +1,17 @@
+uptime - shows how long system has been running
+free- memory usage
+df - to check disk usage eg.df -h
+ps(process status) - shows current running processes (snapshot)
+eg. ps -A
+
+sudo - admin access (temporarily gives admin privileges)
+
+APT - Advanced Package Tool(app manager) to update, install, remove or search
+
+sudo apt update (tells you if there are packages to install)
+sudo apt upgrade/ sudo apt dist-upgrade (upgrade packages)
+Search package to install (sudo apt search gimp/package name)
+Install package:
+sudo apt install htop
+
+| (pipeline) - sends output of one command  into another command 
