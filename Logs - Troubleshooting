@@ -19,9 +19,9 @@ A service is a program that runs in the background continuously(not like app tha
 systemd manages and controls services(with this, everything is automated)
 
 systemctl is the command used to talk to systemd
-eg. sudo systemct1 start nginx (turn on a service)
-sudo systemct1 stop nginx (turn off a service)
-sudo systemct1 restart nginx (restart a service)
+eg. sudo systemctl start nginx (turn on a service)
+sudo systemcl stop nginx (turn off a service)
+sudo systemctl restart nginx (restart a service)
 systemctl status nginx (shows status of a service whether it is running or not, logs, PID, errors)
 
 
