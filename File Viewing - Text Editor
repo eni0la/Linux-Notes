@@ -24,3 +24,18 @@ more - view file one screen/page at a time
 less -  (better version of more) scroll up/down or search inside file
 
 groupadd (to create group) 
+
+TEXT EDITORS
+nano (type within and edit)
+eg. nano file.txt
+To save & exit:
+Ctrl + X
+Y → confirm
+Enter
+
+vim (advanced editor)
+Exit without saving:
+:q!
+Save and exit:
+:wq
+
