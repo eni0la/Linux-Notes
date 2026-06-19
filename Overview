@@ -1,0 +1,10 @@
+Linux is case sensitive
+KERNEL is the brain of linux OS, it is open-source
+
+TERMINOLOGIES
+Bootloader - starts OS eg. GRUB, ISOLINUX
+Service - runs in the background eg. nginx, ftp,ntp
+File System - used to store files eg. xfs, ext4
+Command Line Interface - type commands
+Shell - command-line interpreter
+
