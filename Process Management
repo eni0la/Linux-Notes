@@ -1,0 +1,40 @@
+* ctrl + c to cancel a process
+
+KILL to send signal to a process (kill -l)
+PID (process ID - number that identifies process), signal number (-9, -15)
+(to terminate a process and save changes, use signal term 15, to force a process to stop, use 9)
+Eg. kill -15 8765
+
+TOP - to see all processes running on your computer in real time - resource usage of sys.(updated by def. every 3secs)
+TERMS
+load average - how many processes are waiting for cpu(last 1 min, 5 & 15 mins)
+tasks stored in system
+when a child process is finished, it becomes a zombie (dead process)
+
+CPU Breakdown
+User cpu(us) - used by normal apps
+System cpu (sy) - used by Linux
+Idle cpu - unused
+MiB Mem (RAM)
+buff/cache - cached data(temporary) kept in RAM
+MiB Swap - hard drive(emergency memory when RAM fills up)
+user - who started process
+PR - priority
+NI -niceness (- aggressive priority, + lower priority)
+VIRT - Virtual mem(total memory processes can access)
+RES - Resident mem (physical RAM currently used)
+SHR - shared mem (mem shared with other processes)
+S -status eg. running, sleeping, zombie
+%CPU - how much CPU processes use
+%MEM -how much RAM processes use
+Time - total cpu time used since process started
+Command - process name 
+
+
+* to sort process by CPU usage use shift + p and shift + m to sort by mem usage
+* if a process is taking too many resources or frozen, press k to kill
+* htop is an app that does same as top command
+
+* to pause a process running in the terminal eg. firefox use ctrl z
+to resume, fuse fg(foreground) or bg (background)
+
