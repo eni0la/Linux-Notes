@@ -25,5 +25,6 @@ less -  (better version of more) scroll up/down or search inside file
 
 groupadd (to create group) 
 
+Networking
 ifconfig (old method) - shows network configuration / IP address
 ip (new)
