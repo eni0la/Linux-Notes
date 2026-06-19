@@ -1,0 +1,33 @@
+chmod (change mode) is used to change access permissions of files in directory
+
+Categories (- means file, d means directory, l means link)
+Symbolic syntax (who)(operation)(permission)
+(u,g,o,a)(+, -, =)(r,w,x)
+
+Numeric syntax
+Read 4
+Write 2
+Execute 1
+
+-R (change permission for a folder and everything inside it)
+eg. chmod -R u+w,go-w project-directory/
+
+This adds write permission for owner and removes write permission for other and groups in all files and directories recursively
+
+Common Perm. Sets
+Permission  Numeric    Use case
+rwxr-xr-x   755             Direc.,scripts
+rw-r--r--   644               Regular&config files
+rwx------   700               Priv./sensitive script
+
+Audit file means checking who has access to what
+
+To make a file executable i.e able to run
+chmod +x filename
+(to run the file and output, use echo before your content, echo means print) to test ./filename
+
+chown (owner:group)
+to change ownership
+* sudo command is required because changing owners require administrative privileges
+eg. sudo chown john:developer file.txt 
+sudo chown john:john /home/documents (directories)
