@@ -3,3 +3,8 @@ Lab 1 - create a script and make it executable
 touch script.sh
 echo "This is a test" > scripts.sh
 chmod +x script.sh
+ #script.sh is now executable
+
+Lab 2 - Identify and terminate a proces
+ps -A
+KILL -15
