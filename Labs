@@ -7,4 +7,5 @@ chmod +x script.sh
 
 Lab 2 - Identify and terminate a proces
 ps -A
-KILL -15
+KILL -15 PID
+#process terminated
