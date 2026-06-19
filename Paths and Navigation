@@ -1,9 +1,0 @@
-Absolute Path - location of a file starting from root /
-Relative Path - location based on current location
-
-SYMBOLS
-/ - root directory
-~ - home directory
-. - current directory
-.. - back
-* - all
