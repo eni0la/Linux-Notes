@@ -1,0 +1,29 @@
+head - shows first part of a file (10 lines)
+head -5 readme.md (show first 5 lines)
+
+Tail - shows last lines of a file
+
+cat (display full content, can also combine files)
+Combine files:
+cat file1.txt file2.txt file3.txt (shows all content in these files)
+Combine + save output in new file:
+cat file1.txt file2.txt > newfile.txt
+
+ > - redirect output into a file (overwrite file)
+
+grep(search inside files)
+
+find (find files in directories)
+eg. to find all txt files in cd (find . -name "*.txt")
+To find all directories/files in home (find /home -type d/find /home -type f)
+
+echo - create file with content using echo
+echo bolu > txt1.txt (Creates file and writes “bolu”)
+
+more - view file one screen/page at a time
+less -  (better version of more) scroll up/down or search inside file
+
+groupadd (to create group) 
+
+ifconfig (old method) - shows network configuration / IP address
+ip (new)
