@@ -1,0 +1,36 @@
+Log file is a type of text file used to record events or activity automatically
+Common log files
+sys log - general system logs
+auth.log - login/authorization log
+boot.log
+
+/var/log displays all log files 
+When you are in auth.log file, you are able to see all login attempts and error messages 
+
+-f means follow mode and allows you to see real time updates
+eg. tail -f /var/log/auth.log
+
+Journalctl is used to view system logs of a service
+eg. journalctl -u nginx (show logs only for nginx)
+journalctl -u nginx -n 20 (show last 20 lines)
+journalctl -n nginx -f (to see live view, see errors as they happen)
+
+A service is a program that runs in the background continuously(not like app that open & close) eg. ngix, ssh, docker etc
+systemd manages and controls services(with this, everything is automated)
+
+systemctl is the command used to talk to systemd
+eg. sudo systemct1 start nginx (turn on a service)
+sudo systemct1 stop nginx (turn off a service)
+sudo systemct1 restart nginx (restart a service)
+systemctl status nginx (shows status of a service whether it is running or not, logs, PID, errors)
+
+
+SSH(Secure Shell) allows you connect to another server securely
+To connect to another server ssh username@ip-address
+
+If unable to connect to ssh because of a different port, troubleshoot with this
+ssh -p (port number) username@ip-address (port number adds some kind of security, it tells which service to talk to)
+
+
+
+
