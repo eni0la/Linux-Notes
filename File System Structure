@@ -1,0 +1,23 @@
+/bin (Binary Directory)
+Contains basic commands used in terminal
+
+/boot
+Contains files required for system booting
+Includes kernel and bootloader files
+
+/dev
+Contains files for hardware devices
+
+/etc
+Stores system configuration files, it is one of the most important directories in Linux
+
+/home
+personal folders for users
+
+/lib (Library Directory)
+Contains shared libraries for system programs and binaries
+ 
+/root
+Home directory for the root (admin) user
+Not the same as /
+Only accessible with admin privileges
